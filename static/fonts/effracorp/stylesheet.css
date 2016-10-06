@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'EffraCorp';
+    src: url('EffraCorp-Light.eot'); /* IE9 Compat Modes */
+    src: url('EffraCorp-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EffraCorp-Light.woff') format('woff'), /* Modern Browsers */
+         url('EffraCorp-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EffraCorp-Light.svg#EffraCorp-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'EffraCorp';
+    src: url('EffraCorp-Regular.eot'); /* IE9 Compat Modes */
+    src: url('EffraCorp-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EffraCorp-Regular.woff') format('woff'), /* Modern Browsers */
+         url('EffraCorp-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EffraCorp-Regular.svg#EffraCorp-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'EffraCorp';
+    src: url('EffraCorp-Medium.eot'); /* IE9 Compat Modes */
+    src: url('EffraCorp-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EffraCorp-Medium.woff') format('woff'), /* Modern Browsers */
+         url('EffraCorp-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EffraCorp-Medium.svg#EffraCorp-Medium') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'EffraCorp';
+    src: url('EffraCorp-Bold.eot'); /* IE9 Compat Modes */
+    src: url('EffraCorp-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EffraCorp-Bold.woff') format('woff'), /* Modern Browsers */
+         url('EffraCorp-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EffraCorp-Bold.svg#EffraCorp-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}

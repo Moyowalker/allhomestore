@@ -1,0 +1,28 @@
+{
+  "name": "Boilerplate",
+  "version": "1.0.0",
+  "description": "My Personal Angular Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gulp",
+    "Angularjs",
+    "Restangular",
+    "UI-Router"
+  ],
+  "author": "Sauban Lawal",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-inject": "^4.1.0",
+    "gulp-less": "^3.0.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.2"
+  }
+}

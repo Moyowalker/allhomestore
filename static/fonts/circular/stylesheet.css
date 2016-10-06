@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Circular';
+  font-weight: normal;
+  src: url('CircularStd-Book.eot'); /* IE9 Compat Modes */
+  src: url('CircularStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('CircularStd-Book.woff') format('woff'), /* Modern Browsers */
+     url('CircularStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('CircularStd-Book.svg#svgFontName') format('svg') /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-weight: bold;
+  src: url('CircularStd-Black.eot'); /* IE9 Compat Modes */
+  src: url('CircularStd-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('CircularStd-Black.woff') format('woff'), /* Modern Browsers */
+     url('CircularStd-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('CircularStd-Black.svg#svgFontName') format('svg') /* Legacy iOS */
+}

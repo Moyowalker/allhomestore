@@ -1,0 +1,12 @@
+/* Webfont: EffraCorp-Bold */@font-face {
+    font-family: 'EffraCorp';
+    src: url('EffraCorp-Bold.eot'); /* IE9 Compat Modes */
+    src: url('EffraCorp-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EffraCorp-Bold.woff') format('woff'), /* Modern Browsers */
+         url('EffraCorp-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EffraCorp-Bold.svg#EffraCorp-Bold') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
