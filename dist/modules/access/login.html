@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="ribbon_container">
+                <div class="ribbon">
+                    <strong class="ribbon-content">
+                        <h1>Login</h1>
+                    </strong>
+                </div>
+            </div>
+            <h3 style="text-align:center;" class="blue_text"></h3>
+            <h3 style="text-align:center;" class="blue_text"></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <button id="login-btn" class="btn btn-lg btn-primary btn-block" style="cursor: pointer" ng-click="loginToggle()"><i class="fa fa-facebook"></i> &nbsp;&nbsp;Log in with Facebook</button>
+
+            <div class="col-md-8 col-md-offset-2 text-center" style="padding: 30px 0 30px 0">OR</div>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+            <form name="form" class="form-validation">
+                <uib-alert type="{{alert.type}}" close="closeAlert();" ng-show="alert">{{alert.message}}</uib-alert>
+                <div class="list-group list-group-sm">
+                    <div class="list-group-item">
+                        <input type="email" placeholder="Email" class="form-control no-border" ng-model="credentials.email" required>
+                    </div>
+                    <div class="list-group-item">
+                        <input type="password" placeholder="Password" class="form-control no-border" ng-model="credentials.password" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary btn-block" ng-click="login()" ng-disabled='form.$invalid'>Log in</button>
+                <div class="text-center m-t m-b">new member? <a ui-sref="access.signup"> Sign up here </a></div>
+                <div class="line line-dashed"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- <div data-ng-include=" 'partials/footer.html' " class="app-header navbar">
+</div> -->
+=======
+<div>
+    <h1> {{message}} </h1>
+</div>
+>>>>>>> 7f14df01061835784f04fe802b4545b07bfde6b0
